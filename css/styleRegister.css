@@ -68,13 +68,6 @@ input::-webkit-input-placeholder {
     color: #ffff;
 }
 
-footer {
-    margin-top: 400px;
-    text-align: center;
-    color: #ffff;
-    font-size: 16px;
-}
-
 @media screen and (max-width: 400px) {
     .container {
         display: flex;
