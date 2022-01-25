@@ -16,7 +16,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-body,
 input,
 button {
     color: #222;
@@ -31,4 +30,10 @@ button {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+footer {
+    margin-top: 400px;
+    text-align: center;
+    color: #ffff;
 }

@@ -1,0 +1,57 @@
+
+main {
+    margin: auto;
+}
+img {
+    width: 40px;
+}
+hr{
+    color:white;
+}
+
+.d-flex a:hover {
+    color: gray;
+}
+
+h1 {
+    color: white;
+}
+
+.container-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-description p {
+    color: white;
+}
+
+canvas{
+    width: 20%px;
+}
+
+button {
+    width: 30%;
+    font-size: 18px;
+    background-color: #512da8;
+    border: none;
+    border-radius: 2px;
+    padding: 12px;
+    color: #ffff;
+}
+
+button:hover {
+    background-color: #4af84a;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #512da8 ;
+}
+
+
+
+
+
+
+

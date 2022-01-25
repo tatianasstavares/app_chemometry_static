@@ -59,6 +59,7 @@
     border-radius: 2px;
     border: none;
     background-color: #212121;
+    color: white;
 }
 
 .container-form button {
@@ -70,11 +71,7 @@
     color: #ffff;
 }
 
-footer {
-    margin-top: 400px;
-    text-align: center;
-    color: #ffff;
-}
+
 
 @media screen and (max-width: 400px) {
     .container {
