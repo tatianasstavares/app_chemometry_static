@@ -1,12 +1,25 @@
-
 main {
     margin: auto;
 }
+
+section.description {
+    margin-top: 160px;
+}
+
+section {
+    margin-top: 160px;
+}
+
+main p {
+    font-size: 20px;
+}
+
 img {
     width: 40px;
 }
-hr{
-    color:white;
+
+hr {
+    color: white;
 }
 
 .d-flex a:hover {
@@ -21,15 +34,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
 }
 
 .container-description p {
     color: white;
-}
-
-canvas{
-    width: 20%px;
 }
 
 button {
@@ -43,15 +52,42 @@ button {
 }
 
 button:hover {
-    background-color: #4af84a;
-    color: black;
-    font-weight: bold;
-    border: 2px solid #512da8 ;
+    background-color: #633BBC;
 }
 
+button a:hover {
+    color: #ffff;
+}
 
+span a {
+    color: #4af84a;
+}
 
+span a:hover {
+    color: #633BBC;
+}
 
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
+.btn {
+    background: #512da8;
+    border: none;
+}
 
+.btn:hover {
+    background-color: #633BBC;
+}
 
+.card-body li {
+    /* background-color: #363636; */
+    list-style: none;
+    ;
+}
+
+.card-body i {
+    padding-right: 10px;
+}

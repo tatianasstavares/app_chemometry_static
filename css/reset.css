@@ -33,6 +33,7 @@ a {
 }
 
 footer {
+    height: 112px;
     margin-top: 400px;
     text-align: center;
     color: #ffff;
