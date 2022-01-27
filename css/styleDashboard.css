@@ -1,3 +1,26 @@
+/* header */
+
+.main-container {
+    height: 900px;
+}
+
+nav img {
+    width: 40px;
+}
+
+hr {
+    color: white;
+}
+
+.d-flex a:hover {
+    color: gray;
+}
+
+.logo {
+    display: flex;
+    color: #007BFF
+}
+
 img {
     width: 40px;
 }
@@ -14,6 +37,36 @@ h1 {
     color: white;
 }
 
+input[type="file"] {
+    display: none;
+}
+
+form {
+    display: flex;
+    gap: 48px;
+}
+
+form label {
+    width: 200px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+    color: #ffff;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+form button {
+    width: 100px;
+    background-color: #512da8;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+    color: #ffff;
+    font-size: 18px;
+}
+
 li {
     list-style: none;
 }
@@ -23,12 +76,36 @@ input {
 }
 
 p,
-label,
 li,
 strong {
     color: white;
+    font-weight: 400;
 }
 
-.accordion-body {
+strong {
+    font-size: 20px;
+}
+
+.accordion-item {
     background-color: #212121;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.accordion-button {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+i {
+    margin-right: 16px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 }

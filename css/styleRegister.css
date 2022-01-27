@@ -1,7 +1,28 @@
+nav img {
+    width: 40px;
+}
+
+hr {
+    color: white;
+}
+
+.d-flex a:hover {
+    color: gray;
+}
+
+.logo {
+    display: flex;
+    color: #007bff;
+}
+
 .container {
     display: flex;
     align-items: center;
     gap: 200px;
+}
+
+.main-register-container {
+    min-height: calc(100vh - 160px);
 }
 
 input::-webkit-input-placeholder {
@@ -10,7 +31,7 @@ input::-webkit-input-placeholder {
 
 .logo {
     display: flex;
-    color: #4af84a;
+    color: #007bff;
 }
 
 .container-logo {
@@ -66,6 +87,26 @@ input::-webkit-input-placeholder {
     border: none;
     border-radius: 2px;
     padding: 8px;
+    color: #ffff;
+}
+
+button {
+    width: 80%;
+    font-size: 18px;
+    background-color: #512da8;
+    border: none;
+    border-radius: 2px;
+    padding: 12px;
+    gap: 10px;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #633bbc;
+}
+
+button a:hover {
     color: #ffff;
 }
 
