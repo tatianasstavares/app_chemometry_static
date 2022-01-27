@@ -93,7 +93,7 @@ input::-webkit-input-placeholder {
 button {
     width: 80%;
     font-size: 18px;
-    background-color: #512da8;
+    background-color: #007bff;
     border: none;
     border-radius: 2px;
     padding: 12px;
@@ -103,7 +103,7 @@ button {
 }
 
 button:hover {
-    background-color: #633bbc;
+    background-color: #227ad8;
 }
 
 button a:hover {
