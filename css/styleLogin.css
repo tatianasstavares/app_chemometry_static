@@ -17,7 +17,7 @@ hr {
 
 .logo {
     display: flex;
-    color: #007BFF
+    color: #ffff;
 }
 
 .nav-container {
@@ -44,29 +44,18 @@ hr {
 }
 
 .container-logo p {
-    font-size: 16px;
+    font-size: 54px;
     color: #ffff;
+    font-weight: 700;
 }
 
 .main-login-container {
     min-height: calc(100vh - 160px);
 }
 
-.container-form span {
-    text-align: center;
-    margin-top: 32px;
-    font-size: 14px;
-}
-
-.container-form a {
-    color: #007BFF;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 4px;
-}
-
 .container-form {
     width: 600px;
+    border-radius: 5px;
     background-color: #424242;
     padding: 40px;
     display: flex;
@@ -75,13 +64,19 @@ hr {
     color: #ffff;
     font-weight: lighter;
     margin-top: 130px;
-    gap: 16px;
+    gap: 18px;
+    font-size: 16px;
+}
+
+.container-form span {
+    text-align: center;
+    margin-top: 32px;
 }
 
 .container-form input {
     width: 100%;
-    padding: 8px;
-    border-radius: 2px;
+    padding: 12px;
+    border-radius: 5px;
     border: none;
     background-color: #212121;
     color: white;
@@ -91,8 +86,19 @@ hr {
     width: 100%;
     background-color: #512da8;
     border: none;
-    border-radius: 2px;
-    padding: 8px;
+    border-radius: 5px;
+    padding: 12px;
+    color: #ffff;
+}
+
+.container-form a {
+    color: #007BFF;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.container-form a:hover {
     color: #ffff;
 }
 

@@ -31,14 +31,23 @@ h1 {
 }
 
 .container-description {
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
 }
 
 .container-description p {
-    color: white;
+    color: #e1e1e6;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.container-description .information h1 {
+    font-size: 56px;
+    font-weight: 700;
 }
 
 button {
@@ -70,24 +79,30 @@ span a:hover {
 .container-cards {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 70px;
 }
 
 .btn {
     background: #512da8;
     border: none;
+    font-size: 18px;
 }
 
 .btn:hover {
     background-color: #633BBC;
 }
 
+.card-body h5 {
+    font-size: 20px;
+}
+
 .card-body li {
-    /* background-color: #363636; */
     list-style: none;
-    ;
+    font-size: 18px;
 }
 
 .card-body i {
     padding-right: 10px;
+    font-size: 24px;
+    color: #007bff;
 }
