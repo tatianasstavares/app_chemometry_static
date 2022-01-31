@@ -12,7 +12,10 @@ hr {
 
 .logo {
     display: flex;
-    color: #007bff;
+}
+
+.logo h1 {
+    color: #ffff;
 }
 
 .container {
@@ -38,7 +41,7 @@ input::-webkit-input-placeholder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 16px;
     margin-top: 40px;
 }
 
@@ -47,13 +50,28 @@ input::-webkit-input-placeholder {
     margin-right: 4px;
 }
 
-.container-logo h3 {
-    font-size: 16px;
+.container-logo h2 {
     color: #ffff;
 }
 
-.container-logo h2 {
+.container-logo p {
+    color: #007bff;
+    font-weight: 500;
+}
+
+.container-logo p:hover {
     color: #ffff;
+    transition: 0.5s;
+}
+
+.container-logo h3 {
+    color: rgb(168, 168, 179);
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.logo i {
+    color: #007bff;
 }
 
 .container-form {
@@ -65,16 +83,18 @@ input::-webkit-input-placeholder {
     align-items: flex-start;
     font-weight: lighter;
     margin-top: 130px;
-    gap: 16px;
+    gap: 18px;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .container-form input {
     width: 100%;
-    padding: 8px;
-    border-radius: 2px;
+    padding: 12px;
+    border-radius: 5px;
     border: none;
     background-color: #212121;
-    color: #ffff;
+    color: white;
 }
 
 .container-form .input {
@@ -104,6 +124,7 @@ button {
 
 button:hover {
     background-color: #227ad8;
+    transition: 1s;
 }
 
 button a:hover {
@@ -115,7 +136,6 @@ button a:hover {
         display: flex;
         flex-direction: column-reverse;
         gap: 20px;
-        background-color: red;
     }
     .container-logo h2 {
         font-size: 24px;
