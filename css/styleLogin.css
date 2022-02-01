@@ -91,7 +91,7 @@ hr {
     color: #ffff;
 }
 
-.container-form a {
+.container-form span a {
     color: #007BFF;
     font-weight: 700;
     text-decoration: none;
@@ -100,6 +100,11 @@ hr {
 
 .container-form a:hover {
     color: #ffff;
+    transition: 0.5s;
+}
+
+.container-form button:hover {
+    background-color: #5a32b8;
     transition: 0.5s;
 }
 
