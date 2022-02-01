@@ -99,9 +99,14 @@ hr {
 }
 
 .container-form a:hover {
-    color: #ffff;
-    transition: 0.5s;
+    color: #2870bd;
+    transition: 0.3s;
 }
+
+.container-form button a:hover  {
+    color: #ffff;
+}
+
 
 .container-form button:hover {
     background-color: #5a32b8;

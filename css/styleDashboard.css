@@ -31,6 +31,7 @@ hr {
 
 .d-flex a:hover {
     color: gray;
+    transition: 0.5s;
 }
 
 h1 {
@@ -99,7 +100,7 @@ strong {
     font-weight: 400;
 }
 
-i {
+.main-container i {
     margin-right: 16px;
 }
 

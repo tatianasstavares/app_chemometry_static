@@ -24,6 +24,7 @@ hr {
 
 .d-flex a:hover {
     color: gray;
+    transition: 0.5s;
 }
 
 h1 {
@@ -73,7 +74,8 @@ span a {
 }
 
 span a:hover {
-    color: #633BBC;
+    color: #2870bd;
+    transition: 0.3s;
 }
 
 .container-cards {
@@ -105,4 +107,107 @@ span a:hover {
     padding-right: 10px;
     font-size: 24px;
     color: #007bff;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .container-description .information h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .container-description .information p {
+        font-size: 14px;
+    }
+
+    .container-description span p {
+        font-size: 14px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+    }
+    .card-body a {
+        font-size: 14px;
+    }
+    .card-body p,i {
+        font-size: 14px;
+    }
+
+    .card-body ul li {
+        font-size: 12px;
+    }
+    .container-cards {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-description .information h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .container-description .information p {
+        font-size: 14px;
+    }
+
+    .container-description span p {
+        font-size: 14px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+    }
+    .card-body a {
+        font-size: 14px;
+    }
+    .card-body p,i {
+        font-size: 14px;
+    }
+
+    .card-body ul li {
+        font-size: 12px;
+    }
+    .container-cards {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .information h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .container-description .information p {
+        font-size: 14px;
+    }
+    
+    .container-description span p {
+        font-size: 14px;
+    }
+    .card-body h5{
+        font-size: 18px;
+    }
+    .card-body a {
+        font-size: 14px;
+    }
+    .card-body p,i {
+        font-size: 14px;
+    }
+
+    .card-body ul li {
+        font-size: 12px;
+    }
+    .container-cards {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
 }

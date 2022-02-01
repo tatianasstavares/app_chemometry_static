@@ -8,6 +8,7 @@ hr {
 
 .d-flex a:hover {
     color: gray;
+    transition: 0.5s;
 }
 
 .logo {
@@ -60,8 +61,8 @@ input::-webkit-input-placeholder {
 }
 
 .container-logo p:hover {
-    color: #ffff;
-    transition: 0.5s;
+    color: #2870bd;
+    transition: 0.3s;
 }
 
 .container-logo h3 {
@@ -123,13 +124,10 @@ button {
 }
 
 button:hover {
-    background-color: #227ad8;
-    transition: 1s;
+    background-color: #553699;
+    transition: 0.5s;
 }
 
-button a:hover {
-    color: #ffff;
-}
 
 @media screen and (max-width: 400px) {
     .container {
