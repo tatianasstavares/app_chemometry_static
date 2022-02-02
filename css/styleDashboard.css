@@ -38,38 +38,34 @@ h1 {
     color: white;
 }
 
-input[type="file"] {
-    display: none;
-}
+input[type="file"]{
 
-form {
-    display: flex;
-    gap: 48px;
-}
-
-form label {
-    width: 200px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 2px;
-    padding: 8px;
+    background-color: #007BFF;
     color: #ffff;
-    font-size: 18px;
-    margin-left: 20px;
+}
+
+ label {
+    width: 200px;
+    color: #ffff;
+    font-size: 18px;;
 }
 
 form label i {
     margin-right: 5px;
 }
 
-form button {
+button {
     width: 100px;
-    background-color: #512da8;
+    background-color: #007BFF;
     border: none;
     border-radius: 2px;
-    padding: 8px;
+    padding: 5px;
     color: #ffff;
     font-size: 18px;
+}
+
+.container-file {
+    display: flex;
 }
 
 li {
@@ -96,6 +92,13 @@ strong {
     margin-top: 20px;
     font-size: 18px;
 }
+
+.accordion-item i {
+    margin-right: 12px;
+}
+
+
+
 
 .accordion-button {
     background-color: #512da8;

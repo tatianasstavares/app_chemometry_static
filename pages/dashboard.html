@@ -31,11 +31,14 @@
     </nav>
     <hr>
     <div>
-        <form action="">
-            <label for="add-file"><i class="bi bi-file-earmark-arrow-up"></i>Insira o ficheiro</label>
-            <input name="add-file" id="add-file" type="file">
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="mb-3 mx-1">
+            <label for="formFile" class="form-label text-light mx-3 ">Insira seu ficheiro<i class="bi bi-file-earmark-arrow-up mx-1"></i></label>
+            <div class="container-file">
+                <input  class="form-control w-25 bg-dark text-primary mx-3 h-100" type="file" id="formFile">
+                <button type="submit">Enviar</button>
+            </div>
+          </div>
+        
     </div>
     <hr>
     <div class="container-fluid main-container">
