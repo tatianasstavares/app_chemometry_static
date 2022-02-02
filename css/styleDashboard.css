@@ -58,6 +58,10 @@ form label {
     margin-left: 20px;
 }
 
+form label i {
+    margin-right: 5px;
+}
+
 form button {
     width: 100px;
     background-color: #512da8;
@@ -100,13 +104,30 @@ strong {
     font-weight: 400;
 }
 
-.main-container i {
-    margin-right: 16px;
-}
-
 .accordion-button:not(.collapsed) {
     background-color: #512da8;
     color: #fff;
     font-size: 18px;
     font-weight: 400;
+}
+
+.export {
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.export button {
+    width: 120px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.export i {
+    margin-right: 5px;
 }
